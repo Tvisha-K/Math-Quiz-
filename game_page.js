@@ -56,11 +56,7 @@ function send() {
 
     user_answer = document.getElementById("input_check_box").value;
 
-    if (user_answer /= actual_answer){
-
-        window.alert("Your answer is wrong");
-
-    }
+    
 
     if (user_answer == actual_answer) {
 
